@@ -107,8 +107,8 @@
 					<tbody id="cuerpoTablaPatronesFechaId" style="display: none">
 						<tr>
 							<th>Patrón</th>
-							<th>Componente de fecha o hora</th>
-							<th>Presentacion</th>
+							<th>Componente de fecha u hora</th>
+							<th>Presentación</th>
 							<th>Ejemplo</th>
 						</tr>
 						<tr class="fila_tabla_impar">

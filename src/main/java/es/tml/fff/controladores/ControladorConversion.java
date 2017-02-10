@@ -35,7 +35,7 @@ public class ControladorConversion
 	/**
 	 * Constructor
 	 * 
-	 * @param datos Datos con los que se va a realizar la conversi�n
+	 * @param datos Datos con los que se va a realizar la conversión
 	 */
 	public ControladorConversion(DatosFormularioConversion datos)
 	{
@@ -95,7 +95,7 @@ public class ControladorConversion
 	{
 		boolean error = false;
 		
-		// Campos vac�os
+		// Campos vacíos
 		if ("".equals(directorioEntrada))
 		{
 			listaErrores.add("No se ha especificado directorio de entrada");
@@ -249,7 +249,7 @@ public class ControladorConversion
 	}
 	
 	/**
-	 * Procesa el resultado de la ejecuci�n del programa
+	 * Procesa el resultado de la ejecución del programa
 	 * 
 	 * return Resultado
 	 */
