@@ -5,8 +5,7 @@
 	<artifactId>fff</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>fff Maven Webapp</name>
-	<url>http://maven.apache.org</url>
+	<name>Formateador Fotografico de Fechas</name>
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
