@@ -1,2 +1,2 @@
 # FFF
-Formateador de fechas en fotos
+Formateador fotográfico de fechas
