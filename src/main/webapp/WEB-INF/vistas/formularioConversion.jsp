@@ -4,7 +4,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Formulario ConversiÃ³n</title>
+<title>Formulario Conversión</title>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <script language="Javascript" src="js/jquery-3.1.0.min.js"></script>
 <script language="Javascript" src="js/funciones.js"></script>
@@ -15,7 +15,7 @@
 		<div class="web">
 			<div class="contenedor">
 				<div class="div_cabecera div_conversion_cabecera sombra borde_redondeado">
-					FORMULARIO CONVERSIÃ“N
+					FORMULARIO CONVERSIÓN
 				</div>
 				<div class="div_resultados div_conversion_resultado sombra borde_redondeado" id="contenedorResultadoId" style="display: none">
 					<div class="div_texto_centrado">
@@ -37,7 +37,7 @@
 					<div class="div_fila">
 						<div class="div_columna div_columna_1_2 sombra borde_redondeado">
 							<div class="div_etiqueta">
-								<form:label path="tipoConversion">Tipo de conversiÃ³n:</form:label>
+								<form:label path="tipoConversion">Tipo de conversión:</form:label>
 							</div>
 							<div class="div_campo">
 								<form:select path="tipoConversion" id="tipoConversionId" onchange="comprobarTipoConversion();">
@@ -106,9 +106,9 @@
 					</thead>
 					<tbody id="cuerpoTablaPatronesFechaId" style="display: none">
 						<tr>
-							<th>PatrÃ³n</th>
+							<th>Patrón</th>
 							<th>Componente de fecha u hora</th>
-							<th>PresentaciÃ³n</th>
+							<th>Presentación</th>
 							<th>Ejemplo</th>
 						</tr>
 						<tr class="fila_tabla_impar">
@@ -255,7 +255,7 @@
 					</thead>
 					<tbody id="cuerpoTablaEjemplosPatronesFechaId" style="display: none">
 						<tr>
-							<th>Patron de fecha y hora</th>
+							<th>Patrón de fecha y hora</th>
 							<th>Resultado</th>
 						</tr>
 						<tr class="fila_tabla_impar">
@@ -308,15 +308,15 @@
 			<div class="div_popup div_patrones_conocidos sombra borde_redondeado">
 				<div class="div_etiqueta">Patrones conocidos:</div>
 				<select onchange="cargarPatronPopup(this.value);" id="selectCargarPatronId">
-					<option value="0">Selecciona un patrÃ³n o insÃ©rtalo a mano...</option>
+					<option value="0">Selecciona un patrón o insértalo a mano...</option>
 					<option value="">-</option>
 					<option value="EXIF">EXIF</option>
-					<option value="AND_EST">Android estÃ¡ndar</option>
+					<option value="AND_EST">Android estándar</option>
 					<option value="AND_MILI">Android con milisegundos</option>
 					<option value="IPHONE_ESP">iPhone (hora con espacios)</option>
 					<option value="IPHONE_PUN">iPhone (hora con puntos)</option>
 					<option value="">-</option>
-					<option value="SALIDA_EST">Salida estÃ¡ndar</option>
+					<option value="SALIDA_EST">Salida estándar</option>
 				</select>
 				<div class="div_patron_cargado"><input type="text" id="patronSeleccionadoId"></div>
 			</div>
